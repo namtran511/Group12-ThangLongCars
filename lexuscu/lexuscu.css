@@ -1,0 +1,206 @@
+#hotline span{
+    color: white;
+    background-color: #1f2b36;
+}
+#hotline span:hover{
+    background-color:white;
+    color: black;
+}
+#main-menu li a{
+    color: white;
+}
+#main-menu li a:hover{
+    color: #f0d66e;
+}
+h1{
+    font-family: "EB Garamond", serif;
+    color: #cec293;
+}
+.lexuscuphandau{
+    background-color: #282e3a;
+    color: white;
+    padding: 13%;
+    font-family: sans-serif;
+    margin-top: -180px;
+    padding-top: 25.5%
+}
+.logo{
+    float: left;
+}
+.cuoicung{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.a1{
+    display: flex;
+    list-style-type: none;
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px;
+    transition: background-color 0.3s;
+
+    
+}
+.a1 :hover{
+    background-color: white;
+    color: black;
+}
+.a1 a{
+    text-decoration: none;
+    border: 1.5px solid;;
+    color: aliceblue;
+    font-family: "Kanit", sans-serif;
+    padding: 5px;
+    border-radius: 4px;
+    
+    
+}
+.tieudefooter{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    color:#cec293 ;   
+}
+.a1 li{
+    margin:auto
+    
+}
+body {
+background-color: #282e3a;
+font-family: "Kanit", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.table{
+    color: #cec293;
+    padding: 65px;
+    text-align: center;
+  
+
+}
+td a{
+    color: white;
+    font-family: "Kanit", sans-serif;
+    margin: 15px;
+    padding: 13px;
+}
+tr{
+    text-align: center;
+}
+hr{
+    height: 2px;
+    background-color: white;
+}
+
+
+.sticky {
+    position: fixed;
+    top:0;
+    width: 1000;
+    background-color: #282e3a;
+    z-index: 1000;
+}
+.hotlinenav{
+    background-color: #282e3a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    transition: background-color 0.3s;
+}
+.navbar .hotlinenav:hover{
+    background-color: white;
+    color: black;
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .table {
+        padding: 30px; 
+    }
+
+    .a1 {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .a1 li {
+        margin: 10px 0;
+    }
+
+    .cuoicung {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .tieudefooter {
+        font-size: 1.5rem; 
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .table {
+        padding: 20px; 
+    }
+
+    .tieudefooter {
+        font-size: 1.2rem; 
+    }
+
+    td a {
+        margin: 5px; 
+    }
+
+    .cuoicung p {
+        font-size: 0.8rem; 
+    }
+}
+/* Media Queries cho Footer */
+@media (max-width: 768px) {
+    .table {
+        padding: 20px; 
+        width: 100%; 
+    }
+
+    .table th, .table td {
+        display: block; 
+        text-align: left; 
+    }
+
+    .table tr {
+        margin-bottom: 20px;
+    }
+
+    .table th {
+        background-color: #383d4c; 
+        color: white; 
+        padding: 10px 0; 
+    }
+
+    .table td {
+        padding: 10px; 
+        color: white; 
+    }
+}
+
+@media (max-width: 480px) {
+    .table {
+        padding: 10px; 
+    }
+
+    .table th, .table td {
+        font-size: 0.9rem; 
+    }
+
+    .tieudefooter {
+        font-size: 1.2rem; 
+    }
+
+    td a {
+        margin: 5px 0;
+    }
+}

@@ -1,0 +1,530 @@
+#hotline span{
+    color: white;
+    background-color: #1f2b36;
+}
+#hotline span:hover{
+    background-color:white;
+    color: black;
+}
+#main-menu li a{
+    color: white;
+}
+#main-menu li a:hover{
+    color: #f0d66e;
+}
+body{
+    font-family: "Kanit", sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #282e3a;
+    color: aliceblue;
+    position: fixed;
+}
+.logo{
+    width: 20%;
+}
+#main-menu li a{
+    padding:5px 20px;
+}
+#hotline{
+    /* display: none; */
+    padding: 10px 10px ;
+    display: flex;
+
+}
+#main-menu li{
+    margin: 0px 30px;
+}
+#hotline a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    padding: 20px 20px;
+    list-style-type: none;
+}
+.logo a img{
+    height: 60px;
+    width: 100%;
+}
+ul a{
+    color: aliceblue;
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#main-menu a:hover{
+    color: rgb(252, 229, 127);
+}
+.text-gradient{
+    background: linear-gradient(to right, #f7e8bc, #ffffff);
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #282e3a;
+    color: #fff;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    margin-left: 100px;
+}
+.left-section {
+    width: 65%;
+}
+.right-section {
+    width: 40%;
+    color: #000;
+    padding: 30px;
+    border-radius: 8px;
+    height: 30%;
+    margin-top: 80px;
+
+}
+.breadcrumb {
+    font-size: 14px;
+    color: #ccc;
+}
+.breadcrumb a {
+    color: #ccc;
+    text-decoration: none;
+}
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+.title {
+    font-size: 36px;
+    margin: 10px 0;
+    color: #f7e8bc;
+}
+.car-image {
+    width: 100%;
+    border-radius: 8px;
+}
+.price {
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.support {
+    color: red;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.address {
+    margin: 20px 0;
+    margin-top: 30px;
+}
+.contact-button {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    padding-right: 5px;
+    color: #000000;
+    text-align:center;
+    text-decoration: none;
+    margin: 10px 0px;
+    border: #000000 solid 2px;
+}
+.contact-button:hover {
+    color: #f0d66e;
+}
+.hotline {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin: 20px 0;
+    margin-top: 30px;
+}
+.warranty-info {
+    text-align: center;
+    margin: 20px 0;
+}
+.warranty-info a {
+    color: red;
+    text-decoration: none;
+}
+.warranty-info a:hover {
+    text-decoration: underline;
+}
+#hotline a:hover{
+    background: #ffffff;
+    color: #000;
+}
+.thongso{
+    text-align: left;
+    padding-top: 100px;
+    width: 405px;
+}
+.specs-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.specs-table td {
+    padding: 10px 20px;
+    border-bottom: 1px solid #E0E0E0;
+    background-color: #ffffff;
+}
+.specs-table tr:last-child td {
+    border-bottom: none;
+}
+.specs-table td:first-child {
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.specs-table td:first-child i {
+    margin-right: 10px;
+}
+.specs-table td:last-child {
+    text-align: right;
+    color: #000000;
+}
+.thongtin{
+    background-color: #ffffff;
+    width: 405px;
+    color: #000;
+    padding: 10px;
+    border-radius: 8px;
+    height: 450px;
+    text-align: center;
+    margin-top: 0px ;
+}
+.logo{
+    float: left;
+    height: auto;
+}
+.cuoicung{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.a1{
+    display: flex;
+    list-style-type: none;
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px;
+    transition: background-color 0.3s;
+
+    
+}
+.a1 :hover{
+    background-color: white;
+    color: black;
+}
+.a1 a{
+    text-decoration: none;
+    border: 1.5px solid;;
+    color: aliceblue;
+    font-family: "Kanit", sans-serif;
+    padding: 5px;
+    
+    
+}
+.tieudefooter{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    color:#cec293 ;   
+}
+.a1 li{
+    margin:auto
+    
+}
+body {
+background-color: #282e3a;
+
+}
+a{
+    text-decoration: none;
+}
+.table{
+    color: #cec293;
+    padding: 65px;
+  
+
+}
+td a{
+    color: white;
+    font-family: "Kanit", sans-serif;
+    margin: 15px;
+    padding: 13px;
+}
+tr{
+    text-align: center;
+}
+hr{
+    height: 1px;
+    background-color: white;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    float: left;
+    height: 300px;
+    width: 300px;
+}
+
+.cuoicung {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a1 {
+    display: flex;
+    list-style-type: none;
+    justify-content: center; 
+    align-items: center; 
+    transition: background-color 0.3s;
+}
+.logo {
+    float: left;
+    height: auto;
+}
+
+.cuoicung {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f1 {
+    display: flex;
+    list-style-type: none;
+    justify-content: center; 
+    align-items: center; 
+    transition: background-color 0.3s;
+}
+
+
+
+
+.f1 a {
+    text-decoration: none;
+    border: 1.5px solid;
+    color: aliceblue;
+    font-family: "Kanit", sans-serif;
+}
+
+.tieudefooter {
+    text-align: center;
+    color:  #f0d66e;
+     
+}
+
+.a1 li {
+    margin: auto;
+}
+
+body {
+    background-color: #282e3a;
+}
+
+a {
+    text-decoration: none;
+}
+
+.table {
+    color: #cec293;
+    padding-left: 1000px;
+    margin-left: 550px;
+}
+
+td a {
+    color: white;
+    font-family: "Kanit", sans-serif;
+    margin: 15px;
+    padding: 13px;
+}
+
+tr {
+    text-align: center;
+}
+
+hr {
+    height: 2px;
+    background-color: white;
+}
+
+/* CSS hiện tại của bạn */
+
+.logo {
+    float: left;
+    height: auto;
+}
+
+.cuoicung {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a1 {
+    display: flex;
+    list-style-type: none;
+    justify-content: center; 
+    align-items: center; 
+    transition: background-color 0.3s;
+}
+
+.a1 a:hover {
+    background-color: white;
+    color: black;
+}
+
+.a1 a {
+    text-decoration: none;
+    border: 1.5px solid;
+    color: aliceblue;
+    font-family: "Kanit", sans-serif;
+    border-radius: 4px;
+}
+
+.tieudefooter {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    color: #cec293;   
+}
+
+.a1 li {
+    margin: auto;
+}
+
+body {
+    background-color: #282e3a;
+}
+
+a {
+    text-decoration: none;
+}
+
+.table {
+    color: #cec293;
+    padding: 65px;
+}
+
+td a {
+    color: white;
+    font-family: "Kanit", sans-serif;
+    margin: 15px;
+    padding: 13px;
+}
+
+tr {
+    text-align: center;
+}
+
+hr {
+    height: 2px;
+    background-color: white;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .table {
+        padding: 30px; 
+    }
+
+    .a1 {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .a1 li {
+        margin: 10px 0; 
+    }
+
+    .cuoicung {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .tieudefooter {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .table {
+        padding: 20px;
+    }
+
+    .tieudefooter {
+        font-size: 1.2rem; 
+    }
+
+    td a {
+        margin: 5px; 
+    }
+
+    .cuoicung p {
+        font-size: 0.8rem; 
+    }
+}
+/* Media Queries cho Footer */
+@media (max-width: 768px) {
+    .table {
+        padding: 20px; 
+        width: 100%; 
+    }
+
+    .table th, .table td {
+        display: block; 
+        text-align: left; 
+    }
+
+    .table tr {
+        margin-bottom: 20px; 
+    }
+
+    .table th {
+        background-color: #383d4c; 
+        color: white; 
+        padding: 10px 0; 
+    }
+
+    .table td {
+        padding: 10px;
+        color: white;
+    }
+}
+
+@media (max-width: 480px) {
+    .table {
+        padding: 10px; 
+    }
+
+    .table th, .table td {
+        font-size: 0.9rem;
+    }
+
+    .tieudefooter {
+        font-size: 1.2rem; 
+    }
+
+    td a {
+        margin: 5px 0;
+    }
+}
